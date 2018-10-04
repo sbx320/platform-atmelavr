@@ -68,7 +68,7 @@ env.Append(
         "-fno-exceptions",
         "-fno-threadsafe-statics",
         "-fpermissive",
-        "-std=gnu++11"
+        "-std=c++17"
     ],
 
     LINKFLAGS=[

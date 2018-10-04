@@ -1,7 +1,7 @@
 {
   "name": "atmelavr",
   "title": "Atmel AVR",
-  "description": "Atmel AVR 8- and 32-bit MCUs deliver a unique combination of performance, power efficiency and design flexibility. Optimized to speed time to market-and easily adapt to new ones-they are based on the industrys most code-efficient architecture for C and assembly programming.",
+  "description": "Atmel AVR 8- and 32-bit MCUs deliver a unique combination of performance, power efficiency and design flexibility. Optimized to speed time to market-and easily adapt to new ones-they are based on the industrys most code-efficient architecture for C and assembly programming. Uses a gcc 8.2 toolchain",
   "url": "http://www.atmel.com/products/microcontrollers/avr/default.aspx",
   "homepage": "http://platformio.org/platforms/atmelavr",
   "license": "Apache-2.0",
@@ -16,7 +16,8 @@
   "packageRepositories": [
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
     "http://dl.platformio.org/packages/manifest.json",
-    "https://raw.githubusercontent.com/eerimoq/simba/master/make/platformio/manifest.json"
+    "https://raw.githubusercontent.com/eerimoq/simba/master/make/platformio/manifest.json",
+    "https://raw.githubusercontent.com/sbx320/toolchain-avr-gcc/master/manifest.json"
   ],
   "frameworks": {
     "arduino": {
@@ -29,9 +30,9 @@
     }
   },
   "packages": {
-    "toolchain-atmelavr": {
+    "toolchain-avr-gcc": {
       "type": "toolchain",
-      "version": "~1.40902.0"
+      "version": "~8.2"
     },
     "framework-arduinoavr": {
       "type": "framework",
