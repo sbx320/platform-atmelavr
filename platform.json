@@ -32,7 +32,7 @@
   "packages": {
     "toolchain-avr-gcc": {
       "type": "toolchain",
-      "version": "~8.2"
+      "version": "~8.2.0"
     },
     "framework-arduinoavr": {
       "type": "framework",
